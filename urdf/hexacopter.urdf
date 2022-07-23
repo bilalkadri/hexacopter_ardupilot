@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-1-g15f4949  Build Version: 1.6.7594.29634
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="hexacopter">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="1.48936095912072" />
+      <inertia
+        ixx="0.00337831182551866"
+        ixy="-7.63522727269962E-07"
+        ixz="7.28722694166469E-06"
+        iyy="0.00448005697874931"
+        iyz="-4.79159483091375E-08"
+        izz="0.00131736141503058" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hexacopter/urdf/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.152941176470588 0.152941176470588 0.152941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hexacopter/urdf/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Prop_1">
+    <inertial>
+      <origin
+        xyz="1.69444702743937E-06 4.18586504735696E-07 -0.00596384858478055"
+        rpy="0 0 0" />
+      <mass
+        value="0.00895245111605233" />
+      <inertia
+        ixx="3.71187944208884E-07"
+        ixy="4.3373125954373E-07"
+        ixz="5.67725908599275E-11"
+        iyy="3.99338872337509E-05"
+        iyz="-6.09823992173932E-13"
+        izz="4.02234040317085E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hexacopter/urdf/meshes/Prop_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.0980392156862745 0.0980392156862745 0.0980392156862745 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hexacopter/urdf/meshes/Prop_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint
+    name="Prop_1_joint"
+    type="revolute">
+    <origin
+      xyz="-0.11272 -0.45839 0.14018"
+      rpy="3.1416 0 2.61" />
+    <parent
+      link="base_link" />
+    <child
+      link="Prop_1" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="3.14"
+      upper="3.14"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Prop_2">
+    <inertial>
+      <origin
+        xyz="1.6966358215853E-06 4.18809364410855E-07 -0.00596383844207857"
+        rpy="0 0 0" />
+      <mass
+        value="0.00895250944721542" />
+      <inertia
+        ixx="3.71195937451457E-07"
+        ixy="4.33781323882121E-07"
+        ixz="5.6796541122629E-11"
+        iyy="3.99341904456084E-05"
+        iyz="-6.06542784042354E-13"
+        izz="4.022371493835E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hexacopter/urdf/meshes/Prop_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.0980392156862745 0.0980392156862745 0.0980392156862745 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hexacopter/urdf/meshes/Prop_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Prop_2_joint"
+    type="revolute">
+    <origin
+      xyz="0.23457 -0.45839 0.14018"
+      rpy="-3.1416 0 0.57641" />
+    <parent
+      link="base_link" />
+    <child
+      link="Prop_2" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="3.14"
+      upper="3.14"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Prop_3">
+    <inertial>
+      <origin
+        xyz="1.66395550341147E-06 4.25007399940114E-07 -0.00596383426578079"
+        rpy="0 0 0" />
+      <mass
+        value="0.00895254156995327" />
+      <inertia
+        ixx="3.71199740995767E-07"
+        ixy="4.33806034863312E-07"
+        ixz="5.74427663547386E-11"
+        iyy="3.99344114017243E-05"
+        iyz="-7.00106881046662E-13"
+        izz="4.02239394975364E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hexacopter/urdf/meshes/Prop_3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.0980392156862745 0.0980392156862745 0.0980392156862745 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hexacopter/urdf/meshes/Prop_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Prop_3_joint"
+    type="revolute">
+    <origin
+      xyz="0.39429 -0.15764 0.13958"
+      rpy="-3.1416 0 1.5992" />
+    <parent
+      link="base_link" />
+    <child
+      link="Prop_3" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="3.14"
+      upper="3.14"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Prop_4">
+    <inertial>
+      <origin
+        xyz="1.69419407927696E-06 4.18575897442874E-07 -0.00596384858284557"
+        rpy="0 0 0" />
+      <mass
+        value="0.00895245112817838" />
+      <inertia
+        ixx="3.71187944653164E-07"
+        ixy="4.33731265679381E-07"
+        ixz="5.67743946554021E-11"
+        iyy="3.99338874203976E-05"
+        iyz="-6.10269514321236E-13"
+        izz="4.02234042188278E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hexacopter/urdf/meshes/Prop_4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.0980392156862745 0.0980392156862745 0.0980392156862745 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hexacopter/urdf/meshes/Prop_4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Prop_4_joint"
+    type="revolute">
+    <origin
+      xyz="0.23457 0.14305 0.14018"
+      rpy="3.1416 0 2.6559" />
+    <parent
+      link="base_link" />
+    <child
+      link="Prop_4" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="3.14"
+      upper="3.14"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Prop_5">
+    <inertial>
+      <origin
+        xyz="1.69662729959663E-06 4.18806175822573E-07 -0.00596383844231821"
+        rpy="0 0 0" />
+      <mass
+        value="0.00895250944674601" />
+      <inertia
+        ixx="3.71195937537627E-07"
+        ixy="4.3378132364645E-07"
+        ixz="5.67963873242149E-11"
+        iyy="3.99341904470505E-05"
+        iyz="-6.06594423506177E-13"
+        izz="4.02237149398771E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hexacopter/urdf/meshes/Prop_5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.0980392156862745 0.0980392156862745 0.0980392156862745 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hexacopter/urdf/meshes/Prop_5.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Prop_5_joint"
+    type="revolute">
+    <origin
+      xyz="-0.11272 0.14304 0.14018"
+      rpy="3.1416 0 -2.555" />
+    <parent
+      link="base_link" />
+    <child
+      link="Prop_5" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="3.14"
+      upper="3.14"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Prop_6">
+    <inertial>
+      <origin
+        xyz="1.66354421266002E-06 4.25041628115963E-07 -0.00596383430167999"
+        rpy="0 0 0" />
+      <mass
+        value="0.00895254162560458" />
+      <inertia
+        ixx="3.71199740384841E-07"
+        ixy="4.33806046080151E-07"
+        ixz="5.74122859311069E-11"
+        iyy="3.99344113618144E-05"
+        iyz="-6.9859050364654E-13"
+        izz="4.02239394566323E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hexacopter/urdf/meshes/Prop_6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.0980392156862745 0.0980392156862745 0.0980392156862745 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hexacopter/urdf/meshes/Prop_6.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Prop_6_joint"
+    type="revolute">
+    <origin
+      xyz="-0.27243 -0.15764 0.14006"
+      rpy="3.1416 0 1.563" />
+    <parent
+      link="base_link" />
+    <child
+      link="Prop_6" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="3.14"
+      upper="3.14"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>
