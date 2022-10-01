@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8.3)
 
-project(hexacopter)
+project(hexacopter_ardupilot)
 
 find_package(catkin REQUIRED)
 
