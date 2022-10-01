@@ -945,7 +945,8 @@
       <!--<pose frame=''>-0.27243 -0.15764 0.14006 0 -0 0</pose>-->
       <inertial>
         <pose>2e-06 0 -0.005964 0 -0 0</pose>
-        <mass>0.0895254</mass>
+        <!--<mass>0.0895251</mass>-->
+        <mass>0.01683</mass>
         <inertia>
                <!-- <ixx>3.71188e-07</ixx>
           <ixy>4.33731e-07</ixy>
@@ -953,12 +954,24 @@
           <iyy>3.99339e-05</iyy>
           <iyz>-6.09824e-13</iyz>
           <izz>4.02234e-05</izz> -->
-            <ixx>9.75e-06</ixx>
+          
+          <!--
+          <ixx>9.75e-06</ixx>
           <ixy>0</ixy>
           <ixz>0</ixz>
           <iyy>0.000166704</iyy>
           <iyz>0</iyz>
           <izz>0.000167604</izz>
+          -->
+
+          <ixx>0.000852231</ixx>
+          <ixy>-0.000669561</ixy>
+          <ixz>-0.000722589</ixz>
+          <iyy> 0.001743043</iyy>
+          <iyz>0.000387438</iyz>
+          <izz>0.001608744</izz>
+
+
         </inertia>
       </inertial>
       <self_collide>0</self_collide>
