@@ -11,7 +11,8 @@
       <world_size>100</world_size>
       <zoom>20<zoom>
       <map_type>satellite</map_type>
-      <api_key>AIzaSyDTylSDVrc9196fHwjEMwEViRdH1VH_vFI</api_key>
+      <!--This api_key was purchased by MBK it has to be scured , I am removing this key and keepoing it in the home directory-->
+      <api_key></api_key>
       <use_cache>false</use_cache>
     </plugin>
   </world>
