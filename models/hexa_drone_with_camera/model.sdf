@@ -17,7 +17,7 @@
           </geometry>
         </collision> -->
 
-    <!-- <link name="cam_link">
+    <link name="cam_link">
       <pose>0 0 -0.02 0 0 0 </pose>
       <inertial>
         <mass>0.01</mass>
@@ -73,7 +73,7 @@
           <lower>0</lower>
         </limit>
       </axis>
-    </joint> -->
+    </joint>
 
  
    <!--MBK isd commenting out all the following lines, these were the plugins included

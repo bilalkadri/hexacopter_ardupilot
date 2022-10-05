@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
 <sdf version='1.7'>
   <world name='default'>
     <physics type='ode'>
@@ -148,11 +150,9 @@
         <projection_type>perspective</projection_type>
       </camera>
     </gui>
-     
-     
      <model name="mbk_hexa_drone_with_camera">
       <include>
- 	     <uri>model://hexa_drone_with_camera</uri>
+ 	      <uri>model://hexacopter_v2_mbk</uri>
         <!--<uri>model://typhoon_h480</uri>-->
       </include>
       <pose> 0 0 0 0 0 0</pose>
