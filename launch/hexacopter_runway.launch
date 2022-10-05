@@ -5,7 +5,7 @@
         <arg name="debug" default="false" />
         <arg name="gui" default="true" />
         <arg name="pause" default="false" />
-        <arg name="world" default="$(find imr_hexa_sim)/worlds/hexacopter_runway.world" />
+        <arg name="world" default="$(find hexacopter_ardupilot)/world/hexacopter_runway.world" />
 
         <!-- include gazebo_ros launcher -->
         <include file="$(find gazebo_ros)/launch/empty_world.launch">
