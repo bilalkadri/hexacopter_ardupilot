@@ -15,7 +15,7 @@
         <!--<pose>0.062869 -0.07024 -0.0157698 0 -0 0</pose>-->
         <pose>0.062869 -0.16 0.05 0 0 0</pose>
         <!--<mass>0.48936</mass>-->
-        <mass>2.48936</mass>
+        <mass>5</mass>
        <inertia>
          
           <!--<ixx>0.00337831</ixx>
@@ -1144,15 +1144,15 @@
 
     <!-- plugins -->
     <plugin name="Prop_1_blade_1" filename="libLiftDragPlugin.so">
-      <a0>0.3</a0>
-      <alpha_stall>1.4</alpha_stall>
+      <a0>0.4</a0>
+      <alpha_stall>1.9</alpha_stall>
       <cla>4.2500</cla>
       <cda>0.10</cda>
       <cma>0.00</cma>
       <cla_stall>-0.025</cla_stall>
       <cda_stall>0.0</cda_stall>
       <cma_stall>0.0</cma_stall>
-      <area>0.002</area>
+      <area>0.02</area>
       <air_density>1.2041</air_density>
       <!--<link_name>hexacopter::Prop_1</link_name>-->
       <!--<a0>0.08727</a0>
@@ -1166,7 +1166,7 @@
       <area>0.3</area>
       <air_density>1.2041</air_density>-->
       <cp>0.084 0 0</cp>
-      <forward>0 1 0</forward>
+      <forward>0 -1 0</forward>
       <upward>0 0 1</upward>
       <link_name>Prop_1</link_name>
     </plugin>
@@ -1181,18 +1181,18 @@
       <cma_stall>0.0</cma_stall>
       <area>0.3</area>
       <air_density>1.2041</air_density>-->
-      <a0>0.3</a0>
-      <alpha_stall>1.4</alpha_stall>
+      <a0>0.4</a0>
+      <alpha_stall>1.9</alpha_stall>
       <cla>4.2500</cla>
       <cda>0.10</cda>
       <cma>0.00</cma>
       <cla_stall>-0.025</cla_stall>
       <cda_stall>0.0</cda_stall>
       <cma_stall>0.0</cma_stall>
-      <area>0.002</area>
+      <area>0.02</area>
       <air_density>1.2041</air_density>
       <cp>-0.084 0 0</cp>
-      <forward>0 -1 0</forward>
+      <forward>0 1 0</forward>
       <upward>0 0 1</upward>
       <!--<link_name>hexacopter::Prop_1</link_name>-->
       <link_name>Prop_1</link_name>
@@ -1209,15 +1209,15 @@
       <cma_stall>0.0</cma_stall>
       <area>0.3</area>
       <air_density>1.2041</air_density>-->
-      <a0>0.3</a0>
-      <alpha_stall>1.4</alpha_stall>
+      <a0>0.4</a0>
+      <alpha_stall>1.9</alpha_stall>
       <cla>4.2500</cla>
       <cda>0.10</cda>
       <cma>0.00</cma>
       <cla_stall>-0.025</cla_stall>
       <cda_stall>0.0</cda_stall>
       <cma_stall>0.0</cma_stall>
-      <area>0.002</area>
+      <area>0.02</area>
       <air_density>1.2041</air_density>
       <cp>0.084 0 0</cp>
       <forward>0 1 0</forward>
@@ -1237,15 +1237,15 @@
       <cma_stall>0.0</cma_stall>
       <area>0.3</area>
       <air_density>1.2041</air_density>-->
-      <a0>0.3</a0>
-      <alpha_stall>1.4</alpha_stall>
+      <a0>0.4</a0>
+      <alpha_stall>1.9</alpha_stall>
       <cla>4.2500</cla>
       <cda>0.10</cda>
       <cma>0.00</cma>
       <cla_stall>-0.025</cla_stall>
       <cda_stall>0.0</cda_stall>
       <cma_stall>0.0</cma_stall>
-      <area>0.002</area>
+      <area>0.02</area>
       <air_density>1.2041</air_density>
       <cp>-0.084 0 0</cp>
       <forward>0 -1 0</forward>
@@ -1266,15 +1266,15 @@
       <cma_stall>0.0</cma_stall>
       <area>0.3</area>
       <air_density>1.2041</air_density>-->
-      <a0>0.3</a0>
-      <alpha_stall>1.4</alpha_stall>
+      <a0>0.4</a0>
+      <alpha_stall>1.9</alpha_stall>
       <cla>4.2500</cla>
       <cda>0.10</cda>
       <cma>0.00</cma>
       <cla_stall>-0.025</cla_stall>
       <cda_stall>0.0</cda_stall>
       <cma_stall>0.0</cma_stall>
-      <area>0.002</area>
+      <area>0.02</area>
       <air_density>1.2041</air_density>
       <cp>0.084 0 0</cp>
       <forward>0 -1 0</forward>
@@ -1293,15 +1293,15 @@
       <cma_stall>0.0</cma_stall>
       <area>0.3</area>
       <air_density>1.2041</air_density>-->
-      <a0>0.3</a0>
-      <alpha_stall>1.4</alpha_stall>
+      <a0>0.4</a0>
+      <alpha_stall>1.9</alpha_stall>
       <cla>4.2500</cla>
       <cda>0.10</cda>
       <cma>0.00</cma>
       <cla_stall>-0.025</cla_stall>
       <cda_stall>0.0</cda_stall>
       <cma_stall>0.0</cma_stall>
-      <area>0.002</area>
+      <area>0.02</area>
       <air_density>1.2041</air_density>
       <cp>-0.084 0 0</cp>
       <forward>0 1 0</forward>
@@ -1321,18 +1321,18 @@
       <cma_stall>0.0</cma_stall>
       <area>0.3</area>
       <air_density>1.2041</air_density>-->
-      <a0>0.3</a0>
-      <alpha_stall>1.4</alpha_stall>
+      <a0>0.4</a0>
+      <alpha_stall>1.9</alpha_stall>
       <cla>4.2500</cla>
       <cda>0.10</cda>
       <cma>0.00</cma>
       <cla_stall>-0.025</cla_stall>
       <cda_stall>0.0</cda_stall>
       <cma_stall>0.0</cma_stall>
-      <area>0.002</area>
+      <area>0.02</area>
       <air_density>1.2041</air_density>
       <cp>0.084 0 0</cp>
-      <forward>0 -1 0</forward>
+      <forward>0 1 0</forward>
       <upward>0 0 1</upward>
       <!--<link_name>hexacopter::Prop_4</link_name>-->
       <link_name>Prop_4</link_name>
@@ -1348,18 +1348,18 @@
       <cma_stall>0.0</cma_stall>
       <area>0.3</area>
       <air_density>1.2041</air_density>-->
-      <a0>0.3</a0>
-      <alpha_stall>1.4</alpha_stall>
+      <a0>0.4</a0>
+      <alpha_stall>1.9</alpha_stall>
       <cla>4.2500</cla>
       <cda>0.10</cda>
       <cma>0.00</cma>
       <cla_stall>-0.025</cla_stall>
       <cda_stall>0.0</cda_stall>
       <cma_stall>0.0</cma_stall>
-      <area>0.002</area>
+      <area>0.02</area>
       <air_density>1.2041</air_density>
       <cp>-0.084 0 0</cp>
-      <forward>0 1 0</forward>
+      <forward>0 -1 0</forward>
       <upward>0 0 1</upward>
       <!--<link_name>hexacopter::Prop_4</link_name>-->
       <link_name>Prop_4</link_name>
@@ -1377,15 +1377,15 @@
       <cma_stall>0.0</cma_stall>
       <area>0.3</area>
       <air_density>1.2041</air_density>-->
-      <a0>0.3</a0>
-      <alpha_stall>1.4</alpha_stall>
+      <a0>0.4</a0>
+      <alpha_stall>1.9</alpha_stall>
       <cla>4.2500</cla>
       <cda>0.10</cda>
       <cma>0.00</cma>
       <cla_stall>-0.025</cla_stall>
       <cda_stall>0.0</cda_stall>
       <cma_stall>0.0</cma_stall>
-      <area>0.002</area>
+      <area>0.02</area>
       <air_density>1.2041</air_density>
       <cp>0.084 0 0</cp>
       <forward>0 -1 0</forward>
@@ -1404,15 +1404,15 @@
       <cma_stall>0.0</cma_stall>
       <area>0.3</area>
       <air_density>1.2041</air_density>-->
-      <a0>0.3</a0>
-      <alpha_stall>1.4</alpha_stall>
+      <a0>0.4</a0>
+      <alpha_stall>1.9</alpha_stall>
       <cla>4.2500</cla>
       <cda>0.10</cda>
       <cma>0.00</cma>
       <cla_stall>-0.025</cla_stall>
       <cda_stall>0.0</cda_stall>
       <cma_stall>0.0</cma_stall>
-      <area>0.002</area>
+      <area>0.02</area>
       <air_density>1.2041</air_density>
       <cp>-0.084 0 0</cp>
       <forward>0 1 0</forward>
@@ -1423,15 +1423,15 @@
     </plugin>
 
     <plugin name="Prop_6_blade_1" filename="libLiftDragPlugin.so">
-      <a0>0.3</a0>
-      <alpha_stall>1.4</alpha_stall>
+      <a0>0.4</a0>
+      <alpha_stall>1.9</alpha_stall>
       <cla>4.2500</cla>
       <cda>0.10</cda>
       <cma>0.00</cma>
       <cla_stall>-0.025</cla_stall>
       <cda_stall>0.0</cda_stall>
       <cma_stall>0.0</cma_stall>
-      <area>0.002</area>
+      <area>0.02</area>
       <air_density>1.2041</air_density>
       <!--<a0>0.08727</a0>
       <alpha_stall>0.3368</alpha_stall>
@@ -1444,7 +1444,7 @@
       <area>0.3</area>
       <air_density>1.2041</air_density>-->
       <cp>0.084 0 0</cp>
-      <forward>0 -1 0</forward>
+      <forward>0 1 0</forward>
       <upward>0 0 1</upward>
       <!--<link_name>hexacopter::Prop_6</link_name>-->
       <link_name>Prop_6</link_name>
@@ -1460,18 +1460,18 @@
       <cma_stall>0.0</cma_stall>
       <area>0.3</area>
       <air_density>1.2041</air_density>-->
-      <a0>0.3</a0>
-      <alpha_stall>1.4</alpha_stall>
+      <a0>0.4</a0>
+      <alpha_stall>1.9</alpha_stall>
       <cla>4.2500</cla>
       <cda>0.10</cda>
       <cma>0.00</cma>
       <cla_stall>-0.025</cla_stall>
       <cda_stall>0.0</cda_stall>
       <cma_stall>0.0</cma_stall>
-      <area>0.002</area>
+      <area>0.02</area>
       <air_density>1.2041</air_density>
       <cp>-0.084 0 0</cp>
-      <forward>0 1 0</forward>
+      <forward>0 -1 0</forward>
       <upward>0 0 1</upward>
       <!--<link_name>hexacopter::Prop_6</link_name>-->
       <link_name>Prop_6</link_name>
