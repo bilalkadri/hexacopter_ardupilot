@@ -152,7 +152,7 @@
     </gui>
      <model name="mbk_hexa_drone_with_camera">
       <include>
- 	      <uri>model://hexacopter-ZD1250</uri>
+ 	      <uri>model://hexacopter_ZD1250</uri>
         <!--<uri>model://typhoon_h480</uri>-->
       </include>
       <pose> 0 0 0 0 0 0</pose>
