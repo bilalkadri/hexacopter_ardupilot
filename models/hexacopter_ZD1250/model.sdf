@@ -3,6 +3,7 @@
   <model name='sdf-ZD1250'>
     <link name='base_link'>
       <inertial>
+        <!--<pose>-0.000344 -0.002376 -0.055166 1.5707 -0 -0.12</pose>-->
         <pose>-0.000344 -0.002376 -0.055166 1.5707 -0 -0.12</pose>
         <mass>5.56724</mass>
         <inertia>
@@ -109,12 +110,12 @@
           <iyy>0.00448006</iyy>
           <iyz>-4.79159e-08</iyz>
           <izz>0.00131736</izz>-->
-          <ixx>0.001</ixx>
+          <ixx>0.04</ixx>
           <ixy>0</ixy>
           <ixz>0</ixz>
-          <iyy>0.001</iyy>
+          <iyy>0.04</iyy>
           <iyz>0</iyz>
-          <izz>0.001</izz>
+          <izz>0.04</izz>
         </inertia>
       </inertial>
     </link>
@@ -151,12 +152,12 @@
           <iyy>0.00448006</iyy>
           <iyz>-4.79159e-08</iyz>
           <izz>0.00131736</izz>-->
-          <ixx>0.001</ixx>
+          <ixx>0.04</ixx>
           <ixy>0</ixy>
           <ixz>0</ixz>
-          <iyy>0.001</iyy>
+          <iyy>0.04</iyy>
           <iyz>0</iyz>
-          <izz>0.001</izz>
+          <izz>0.04</izz>
         </inertia>
       </inertial>
       <sensor name="imu_sensor" type="imu">
@@ -781,9 +782,9 @@
     <joint name='Prop_1_joint' type='revolute'>
       <parent>base_link</parent>
       <child>Prop_1</child>
-      <pose>0 -0 -0 0 -0 0</pose>
+      <pose>0 -0 -0 -1.5707 -0 0</pose>
       <axis>
-        <xyz>0 1 0</xyz>
+        <xyz>0 0 1</xyz>
         <limit>
           <lower>0</lower>
           <upper>0</upper>
@@ -813,9 +814,9 @@
     <joint name='Prop_2_joint' type='revolute'>
       <parent>base_link</parent>
       <child>Prop_2</child>
-      <pose>0 0 0 0 -0 0</pose>
+      <pose>0 0 0 1.5707 -0 0</pose>
       <axis>
-        <xyz>0 1 0</xyz>
+        <xyz>0 0 1</xyz>
         <limit>
           <lower>0</lower>
           <upper>0</upper>
@@ -845,9 +846,9 @@
     <joint name='Prop_3_joint' type='revolute'>
       <parent>base_link</parent>
       <child>Prop_3</child>
-      <pose>0 -0 -0 0 -0 0</pose>
+      <pose>0 -0 -0 -1.5707 -0 0</pose>
       <axis>
-        <xyz>0 1 0</xyz>
+        <xyz>0 0 1</xyz>
         <limit>
           <lower>0</lower>
           <upper>0</upper>
@@ -877,9 +878,9 @@
     <joint name='Prop_4_joint' type='revolute'>
       <parent>base_link</parent>
       <child>Prop_4</child>
-      <pose>0 0 0 0 -0 0</pose>
+      <pose>0 0 0 1.5707 -0 0</pose>
       <axis>
-        <xyz>0 1 0</xyz>
+        <xyz>0 0 1</xyz>
         <limit>
           <lower>0</lower>
           <upper>0</upper>
@@ -909,9 +910,9 @@
     <joint name='Prop_5_joint' type='revolute'>
       <parent>base_link</parent>
       <child>Prop_5</child>
-      <pose>-0 -0 0 0 -0 0</pose>
+      <pose>-0 -0 0 1.5707 -0 0</pose>
       <axis>
-        <xyz>0 1 0</xyz>
+        <xyz>0 0 1</xyz>
         <limit>
           <lower>0</lower>
           <upper>0</upper>
@@ -941,9 +942,9 @@
     <joint name='Prop_6_joint' type='revolute'>
       <parent>base_link</parent>
       <child>Prop_6</child>
-      <pose>0 0 0 0 -0 0</pose>
+      <pose>0 0 0 -1.5707 -0 0</pose>
       <axis>
-        <xyz>0 1 0</xyz>
+        <xyz>0 0 1</xyz>
         <limit>
           <lower>0</lower>
           <upper>0</upper>

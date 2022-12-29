@@ -41,20 +41,7 @@
       </inertial>
 
 
-      <!--
-      <visual name='base_link_visual'>
-        <geometry>
-          <mesh>
-            <uri>model://iris_base/meshes/iris.dae</uri>
-          </mesh>
-        </geometry>
-        <material>
-          <script>
-            <name>Gazebo/DarkGrey</name>
-          </script>
-        </material>
-      </visual>
-      -->
+      
    
       <collision name='base_link_collision'>
         <pose>0 0 0 0 -0 0</pose>
@@ -88,10 +75,7 @@
         <geometry>
           <mesh>
             <!--<scale>1 1 1</scale>-->
-            <!--<uri>file://home/bilal/catkin_ws/src/hexacopter/meshes/base_link.STL</uri>-->
-            <!--<uri>package://hexacopter/meshes/base_link.STL</uri>-->
-            <!--<uri>model://home/bilal/catkin_ws/src/hexacopter/meshes/base_link.STL </uri>-->
-            <!--<uri>model://home/bilal/catkin_ws/src/hexacopter/meshes/base_link.dae </uri>-->
+            
             <uri>model://hexacopter/meshes/base_link.STL </uri>
             
           </mesh>
